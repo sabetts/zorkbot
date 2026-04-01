@@ -2,6 +2,19 @@
 
 A bot for playing Z Machine games over IRC.
 
+# Install
+
+You'll need Jericho:
+
+    python3 -m pip install jericho
+
+Put the ROMs in the same directory as zorkbot.py:
+
+    git clone git@github.com:sabetts/zorkbot.git
+    cd zorkbot
+    wget https://github.com/BYU-PCCL/z-machine-games/archive/master.zip
+    unzip master.zip
+
 # Usage
 
 Specify the channel and nick:
